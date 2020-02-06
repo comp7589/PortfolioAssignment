@@ -1,85 +1,104 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  
-  <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width,
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
          initial-scale=1">
-         <title>Portfolio Page</title>
-         <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
-      <header>
-          <div class="namebox">
-              <div class="textpadding">
-                  <h1>Ryan Compton</h1>
-              </div>
-          </div>
-           <ul id="links">
-               <nav>
-                   <li><a href="#">About |</a></li>
-                   <li><a href="#">Portfolio |</a></li>
-                   <li><a href="#">Contact</a></li>
-               </nav>
-           </ul>
-      </header>
-      <div class="wrapper">
-          <div id="relative">
-              <h2>Portfolio Gallery</h2>
-              <hr>
-         <!------Portfolio box grid here-->
-         <div class="row">
-             <div class="column">
-                 <div class="content">
-                     <a target="_blank" href="./assets/images/hangman.jpg">
-                     <img id="hang" src="./assets/images/hangman.jpg" alt="Hangman"></a>
-                     <div class="text-block">
-                         <h4>Hangman</h4>
-                     </div>
-                 </div>
-             </div>
-         </div>
-         <div class="column">
-             <div class="content">
-                 <a target="_blank" href="./assets/images/rpggame.jpg">
-                 <img id="rpg" src="./assets/images/rpggame.jpg" alt="RPG Game"></a>
-                 <div class="text-block">
-                        <h4>RPG Game</h4>
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <div class="namebox">
+            <div class="textpadding">
+                <h1>Ryan Compton</h1>
+            </div>
+        </div>
+        <ul id="links">
+            <nav>
+                <li><a href="index.html">About |</a></li>
+                <li><a href="portfolio.html">Portfolio |</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </nav>
+        </ul>
+    </header>
+    <div class="wrapper">
+        <div id="relative">
+            <h2>Portfolio Gallery</h2>
+            <hr>
+            <!------Portfolio box grid here-->
+            <div class="row">
+                <div class="col-sm-8">
+
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="content">
+                                <a target="_blank" href="./assets/images/hangman.jpg">
+                                    <img id="hang" class="portimage" src="./assets/images/hangman.jpg"
+                                        alt="Hangman"></a>
+                                <div class="text-block">
+                                    <h4>Hangman</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="content">
+                                    <a target="_blank" class="portimage " href="./assets/images/rpggame.jpg">
+                                        <img id="rpg" class="portimage" src="./assets/images/rpggame.jpg"
+                                            alt="RPG Game"></a>
+                                    <div class="text-block">
+                                        <h4>RPG Game</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
                     </div>
-             </div>
-         </div>
-         <div class="column">
-             <div class="content">
-                 <a target="_blank" href="./assets/images/triviagame.jpg">
-                 <img id="trivia" src="./assets/images/triviagame.jpg" alt="Trivia Game"></a>
-                 <div class="text-block">
-                        <h4>Trivia Game</h4>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <div class="content">
+                            <a target="_blank" href="./assets/images/triviagame.jpg">
+                                <img id="trivia" class="portimage" src="./assets/images/triviagame.jpg"
+                                    alt="Trivia Game"></a>
+                            <div class="text-block">
+                                <h4>Trivia Game</h4>
+                            </div>
+                        </div>
                     </div>
-             </div>
-         </div>
-         <div class="column">
-             <div class="content">
-                 <a target="_blank" href="./assets/images/rutgersinfowidget.jpg">
-                 <img id="widget" src="./assets/images/rutgersinfowidget.jpg" alt="Rutgers Info Widget"></a>
-                 <div class="text-block">
-                        <h4>Rutgers Info Widget</h4>
+                    <div class="column">
+                        <div class="content">
+                            <a target="_blank" href="./assets/images/rutgersinfowidget.jpg">
+                                <img id="widget" class="portimage" src="./assets/images/rutgersinfowidget.jpg"
+                                    alt="Rutgers Info Widget"></a>
+                            <div class="text-block">
+                                <h4>Rutgers Info Widget</h4>
+                            </div>
+                        </div>
                     </div>
-             </div>
-         </div>
-         <div class="column">
-             <div class="content">
-                 <a target="_blank" href="./assets/images/rockpaperscissor.jpg">
-                 <img id="scissor" src="./assets/images/rockpaperscissor.jpg" alt="Rock Paper Scissor"></a>
-                 <div class="text-block">
-                        <h4>Rock Paper Scissors</h4>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <a target="_blank" href="./assets/images/rockpaperscissor.jpg">
+                            <img id="scissor" class="portimage" src="./assets/images/rockpaperscissor.jpg"
+                                alt="Rock Paper Scissor"></a>
+                        <div class="text-block">
+                            <h4>Rock Paper Scissors</h4>
+                        </div>
                     </div>
-             </div>
-         </div>
-         <!-------END GRID-------------->
-          </div>
-      </div>
-      <div class="footer">
-          Copyright &copy;
-      </div>
-  </body>
+                </div>
+            </div>
+            <!-------END GRID-------------->
+        </div>
+    </div>
+    <div class="footer">
+        Copyright &copy;
+    </div>
+</body>
+
 </html>

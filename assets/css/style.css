@@ -31,6 +31,9 @@ header {
 a:link {
     color: #777777;
 }
+a:visited {
+    color: rgb(98, 173, 166)
+}
 #links li{
     position: relative;
     display: inline-block;
@@ -47,10 +50,10 @@ img#profileimage {
     border-color: #dddddd;
     height: 400px;
     width: 800px;
-    top: 80px;
+    top: 137px;
     position: fixed;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-right: 20%;
 }
 p {
@@ -82,29 +85,19 @@ h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     padding-left: 5%;
 }
-img {
+#profileimage {
     float: left;
+}
+.portimage{
+    height: 250px;
+    width: 250px;
 }
 hr {
     color: #cccccc;
     width: 95%;
 }
-/* Porfolio Grid Table----TEST*/
 .row {
-    margin: 8px -16px;
-}
-.row,
-.row > .column {
-    padding: 8px;
-}
-.column {
-    float: left;
-    width: 25%;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+    margin-top: 85px;
 }
 .content {
     padding: 10px;
